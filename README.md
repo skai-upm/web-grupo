@@ -79,3 +79,23 @@ http://localhost:8080/
 ## Importante
 
 En producción, el JavaScript se ejecuta directamente desde la rama `main`. Por tanto, cualquier persona con permisos de escritura sobre ese repositorio puede modificar el contenido y el código que ejecuta la web. Es el comportamiento buscado para esta instalación, pero conviene proteger la rama `main` y revisar los cambios antes de hacer merge.
+
+## Remote content loader
+
+The dynamic section files (`team.js`, `research.js`, `projects.js`, `vacancies.js`) and the common `script.js` are loaded from the GitHub URLs declared in each HTML page.
+
+The loader intentionally uses `fetch()` + a JavaScript Blob instead of adding `raw.githubusercontent.com` directly as a `<script src>`. GitHub Raw serves JavaScript files as `text/plain`, which can be blocked by strict browser MIME checks.
+
+Performance changes:
+
+- the section JS and `script.js` are downloaded in parallel;
+- the previous `?v=Date.now()` cache-busting has been removed;
+- section content is revalidated using the browser HTTP cache;
+- the shared `script.js` uses normal browser caching;
+- pages preconnect to `raw.githubusercontent.com`.
+
+After pushing a change to GitHub, the normal page reload will revalidate the section data. During testing, append `?refresh=1` to force a completely fresh GitHub request, for example:
+
+    https://skai.etsisi.upm.es/projects.html?refresh=1
+
+Local Docker/localhost uses the packaged JS by default. Append `?remote=1` to test the GitHub path from localhost.

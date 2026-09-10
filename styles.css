@@ -223,3 +223,14 @@ nav a.active{background:var(--skai-pale);color:var(--primary-dark);border-bottom
 @media(max-width:1180px){.brand{min-width:185px}.brand img{width:180px;height:76px}nav a{padding-left:8px;padding-right:8px;font-size:15px}.navbar-inner{gap:14px}}
 @media(max-width:940px){nav{top:91px}.brand{min-width:190px}.brand img{width:185px;height:76px}}
 @media(max-width:650px){nav{top:73px}.brand{min-width:142px}.brand img{width:142px;height:60px}}
+
+/* Dynamic GitHub content loading */
+.dynamic-load-error{
+  grid-column:1/-1;
+  padding:18px 20px;
+  border:1px solid #d6e7ef;
+  border-left:4px solid var(--skai-blue);
+  background:#fff;
+  color:#5b6770;
+  font-size:16px;
+}
