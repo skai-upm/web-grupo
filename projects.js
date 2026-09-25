@@ -12,6 +12,26 @@ window.SKAI_DATA.projects = [
     linkEn:'Project Web →'
   },
   {
+    name:'e-LINCO',
+    metaEs:'Investigación · Convocatoria Nacional · Activo (2027-30)',
+    metaEn:'Research · National R&D · Active (2027-30)',
+    descEs:'Entrenamiento Lingüístico y Neuromodulación para Mejorar la Cognición en los Trastornos del Espectro de la Esquizofrenia',
+    descEn:'Language Training and Neuromodulation to Improve Cognition in Schizophrenia Spectrum Disorders',
+    url:'#',
+    linkEs:'Abrir proyecto →',
+    linkEn:'Project Web →'
+  },
+  {
+    name:'TFGBoost',
+    metaEs:'IA para Innovación Educativa · Plan Propio · (2026-27)',
+    metaEn:'AI for Educational Research · Internal R&D ·  (2026-27)',
+    descEs:'Plataforma de asistencia y mentoría de redacción de TFGs.',
+    descEn:'Support and Mentoring Platform for Writing Final Projects.',
+    url:'#',
+    linkEs:'Abrir proyecto →',
+    linkEn:'Project Web →'
+  },
+  {
     name:'REVEX',
     metaEs:'Innovación Educativa · Plan Propio · (2025-26)',
     metaEn:'Educational Research · Internal R&D ·  (2025-26)',
