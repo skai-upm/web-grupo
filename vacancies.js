@@ -37,16 +37,8 @@ window.SKAI_DATA.vacancies = [
     type:'tfg',code:'TFG-APHASIA-01',
     titleEs:'TFG: Incorporación de IA en una app de tratamiento de la afasia',
     titleEn:'BSc thesis: Adding AI to an aphasia therapy app',
-    descEs:'Evolución de una app móvil existente mediante un LLM open source ligero que genere ejercicios de lenguaje personalizados, voz (STT/TTS) adaptada al habla de personas con afasia y un módulo de analítica del progreso del paciente.',
-    descEn:'Evolve an existing mobile app with a lightweight open-source LLM that generates personalised language exercises, speech (STT/TTS) adapted to aphasic speech, and an analytics module tracking patient progress.',
-    levelEs:'Grado en Informática o afín',levelEn:'Computer Science or related BSc',timeEs:'TFG',timeEn:'BSc thesis'
-  },
-  {
-    type:'tfg',code:'TFG-AVATAR-01',
-    titleEs:'TFG: Pacientes virtuales para el entrenamiento de habilidades psicológicas: modelado de perfiles clínicos y evaluación',
-    titleEn:'BSc thesis: Virtual patients for psychology skills training: clinical profile modelling and evaluation',
-    descEs:'Modelado de perfiles psicológicos (ansiedad, depresión) mediante prompting o fine-tuning, comparativa de LLMs por realismo clínico, coherencia y latencia, interacción por voz con matices emocionales y evaluación automática de la empatía del estudiante.',
-    descEn:'Model psychological profiles (anxiety, depression) through prompting or fine-tuning, benchmark LLMs on clinical realism, coherence and latency, add emotion-aware voice interaction and automatically score the student empathy.',
+    descEs:'Evolución de una app web existente mediante un LLM open source ligero que genere ejercicios de lenguaje personalizados, voz (STT/TTS) adaptada al habla de personas con afasia y un módulo de analítica del progreso del paciente.',
+    descEn:'Evolve an existing web app with a lightweight open-source LLM that generates personalised language exercises, speech (STT/TTS) adapted to aphasic speech, and an analytics module tracking patient progress.',
     levelEs:'Grado en Informática o afín',levelEn:'Computer Science or related BSc',timeEs:'TFG',timeEn:'BSc thesis'
   },
   {
@@ -72,6 +64,30 @@ window.SKAI_DATA.vacancies = [
     descEs:'Arquitectura RAG sobre la normativa y plantillas oficiales de la UPM, similitud vectorial con el Archivo Digital para recomendar TFGs de referencia, validador estructural de borradores en PDF y dashboard de errores y sugerencias.',
     descEn:'RAG architecture over UPM regulations and official templates, vector similarity against the Open Access repository to recommend reference theses, a structural validator for PDF drafts and a dashboard of errors and suggestions.',
     levelEs:'Grado en Informática o afín',levelEn:'Computer Science or related BSc',timeEs:'TFG',timeEn:'BSc thesis'
+  },
+  {
+    type:'tfm',code:'TFM-APHASIA-01',
+    titleEs:'TFM: Incorporación de IA en una app de tratamiento de la afasia',
+    titleEn:'MSc thesis: Adding AI to an aphasia therapy app',
+    descEs:'Evolución de una app web existente mediante un LLM open source ligero que genere ejercicios de lenguaje personalizados, voz (STT/TTS) adaptada al habla de personas con afasia y un módulo de analítica del progreso del paciente.',
+    descEn:'Evolve an existing web app with a lightweight open-source LLM that generates personalised language exercises, speech (STT/TTS) adapted to aphasic speech, and an analytics module tracking patient progress.',
+    levelEs:'Inteligencia Artificial, Informática o afín',levelEn:'AI, Computer Science or related',timeEs:'TFM',timeEn:'MSc thesis'
+  },
+  {
+    type:'tfm',code:'TFM-AVATAR-01',
+    titleEs:'TFM: Pacientes virtuales para el entrenamiento de habilidades psicológicas: modelado de perfiles clínicos y evaluación',
+    titleEn:'MSc thesis: Virtual patients for psychology skills training: clinical profile modelling and evaluation',
+    descEs:'Modelado de perfiles psicológicos (ansiedad, depresión) mediante prompting o fine-tuning, comparativa de LLMs por realismo clínico, coherencia y latencia, interacción por voz con matices emocionales y evaluación automática de la empatía del estudiante.',
+    descEn:'Model psychological profiles (anxiety, depression) through prompting or fine-tuning, benchmark LLMs on clinical realism, coherence and latency, add emotion-aware voice interaction and automatically score the student empathy.',
+    levelEs:'Inteligencia Artificial, Informática o afín',levelEn:'AI, Computer Science or related',timeEs:'TFM',timeEn:'MSc thesis'
+  },
+  {
+    type:'tfm',code:'TFM-UPMCHECK-01',
+    titleEs:'TFM: Asistente virtual para la validación normativa y metodológica de Trabajos de Fin de Grado en la UPM',
+    titleEn:'MSc thesis: Virtual assistant for the regulatory and methodological validation of BSc theses at UPM',
+    descEs:'Arquitectura RAG sobre la normativa y plantillas oficiales de la UPM, similitud vectorial con el Archivo Digital para recomendar TFGs de referencia, validador estructural de borradores en PDF y dashboard de errores y sugerencias.',
+    descEn:'RAG architecture over UPM regulations and official templates, vector similarity against the Open Access repository to recommend reference theses, a structural validator for PDF drafts and a dashboard of errors and suggestions.',
+    levelEs:'Inteligencia Artificial, Informática o afín',levelEn:'AI, Computer Science or related',timeEs:'TFM',timeEn:'MSc thesis'
   }
   
 ];
