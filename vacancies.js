@@ -59,11 +59,11 @@ window.SKAI_DATA.vacancies = [
   },
   {
     type:'tfg',code:'TFG-UPMCHECK-01',
-    titleEs:'TFG: Asistente virtual para la validación normativa y metodológica de Trabajos de Fin de Grado en la UPM',
-    titleEn:'BSc thesis: Virtual assistant for the regulatory and methodological validation of BSc theses at UPM',
-    descEs:'Arquitectura RAG sobre la normativa y plantillas oficiales de la UPM, similitud vectorial con el Archivo Digital para recomendar TFGs de referencia, validador estructural de borradores en PDF y dashboard de errores y sugerencias.',
-    descEn:'RAG architecture over UPM regulations and official templates, vector similarity against the Open Access repository to recommend reference theses, a structural validator for PDF drafts and a dashboard of errors and suggestions.',
-    levelEs:'Grado en Informática o afín',levelEn:'Computer Science or related BSc',timeEs:'TFG',timeEn:'BSc thesis'
+    titleEs:'TFG: Asistente virtual para la validación para mejora de borradores de Trabajos de Fin de Grado en la UPM',
+    titleEn:'BSc thesis: Virtual assistant for improvement of BSc theses draft at UPM',
+    descEs:'Revisión de borradores de TFGs y detección de errores o mejoras aplicando una checklist de factores a considerar (secciones, coherencia, ortografía...).',
+    descEn:'Reviewing drafts of final projects and identifying errors or areas for improvement by applying a checklist of factors to consider (sections, consistency, spelling, etc.).',
+    levelEs:'Grado en Ciencias de Datos, Informática o afín',levelEn:'Computer Science, Data Science or related BSc',timeEs:'TFG',timeEn:'BSc thesis'
   },
   {
     type:'tfm',code:'TFM-APHASIA-01',
@@ -83,10 +83,10 @@ window.SKAI_DATA.vacancies = [
   },
   {
     type:'tfm',code:'TFM-UPMCHECK-01',
-    titleEs:'TFM: Asistente virtual para la validación normativa y metodológica de Trabajos de Fin de Grado en la UPM',
-    titleEn:'MSc thesis: Virtual assistant for the regulatory and methodological validation of BSc theses at UPM',
-    descEs:'Arquitectura RAG sobre la normativa y plantillas oficiales de la UPM, similitud vectorial con el Archivo Digital para recomendar TFGs de referencia, validador estructural de borradores en PDF y dashboard de errores y sugerencias.',
-    descEn:'RAG architecture over UPM regulations and official templates, vector similarity against the Open Access repository to recommend reference theses, a structural validator for PDF drafts and a dashboard of errors and suggestions.',
+    titleEs:'TFM: Asistente virtual para la validación para mejora de borradores de Trabajos de Fin de Grado en la UPM',
+    titleEn:'MSc thesis: Virtual assistant for improvement of BSc theses draft at UPM',
+    descEs:'Revisión de borradores de TFGs y detección de errores o mejoras aplicando una checklist de factores a considerar (secciones, coherencia, ortografía...).',
+    descEn:'Reviewing drafts of final projects and identifying errors or areas for improvement by applying a checklist of factors to consider (sections, consistency, spelling, etc.).',
     levelEs:'Inteligencia Artificial, Informática o afín',levelEn:'AI, Computer Science or related',timeEs:'TFM',timeEn:'MSc thesis'
   }
   
